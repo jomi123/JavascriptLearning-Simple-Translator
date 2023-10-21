@@ -1,0 +1,20 @@
+.output{
+    width: 14rem;
+    height: 8rem;
+    border: 5px solid pink;
+    margin: auto;
+    text-align: left;
+}
+
+.heading{
+    background-color: yellow;
+}
+
+footer{
+    background-color: yellow;
+}
+body{
+    text-align: center;
+    margin: 0;
+    height: 50vh;
+}
