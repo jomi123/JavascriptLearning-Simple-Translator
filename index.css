@@ -1,20 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+:root{
+    --custom-font:"Kalam",sans-serif;
+}
 .output{
-    width: 14rem;
+    width: 15rem;
     height: 8rem;
-    border: 5px solid pink;
+    border: 1px solid black;
     margin: auto;
     text-align: left;
 }
 
-.heading{
+nav{
     background-color: yellow;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 2rem;
+}
+
+
+
+#translate-button{
+    padding: 1rem;
+    background-color: yellow;
+    width: 10rem;
+    border: none;
 }
 
 footer{
     background-color: yellow;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
 }
+
+
 body{
     text-align: center;
     margin: 0;
-    height: 50vh;
+    font-family: var(--custom-font);
 }
